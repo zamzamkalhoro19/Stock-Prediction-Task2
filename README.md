@@ -1,21 +1,23 @@
-# Task 2: Stock Price Prediction
+# Task 2: Stock Price Prediction using Machine Learning
 
-## Objective
-Predict future stock prices using historical data and machine learning to help investors make informed decisions.
+## 📌 Objective
+Predict next-day closing price of Apple (AAPL) stock using historical data and Random Forest Regressor to understand ML applications in finance.
 
-## Dataset
-Historical stock data for AAPL from Yahoo Finance using yfinance library.
+## 📊 Dataset
+- **Source:** Yahoo Finance via `yfinance` library
+- **Stock:** Apple Inc. (AAPL) 
+- **Features:** `Open`, `High`, `Low`, `Volume` to predict `Close`
 
-## Tools & Libraries
-Python, Pandas, Scikit-learn, yfinance, Matplotlib
+## 🤖 Model & Results
+- **Algorithm:** Random Forest Regressor
+- **MAE Score:** $1.98
+- **Visualization:** Actual vs Predicted price comparison graph included in notebook
 
-## Model Used
-Random Forest Regressor
+## 🛠️ Tools & Libraries
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, yfinance
 
-## Results
-- Predicted next-day closing price
-- Visualization: Actual vs Predicted price comparison graph
-- Model trained on 60 days of historical data
+## 💡 Key Insight
+Random Forest model captures stock price trends effectively. However, markets are volatile and predictions should not be used as sole investment advice.
 
-## Insight
-Random Forest model captures stock price trends. However, stock markets are volatile and predictions should not be used as sole investment advice.
+---
+**Internship Task for DevelopersHub Corporation | June 2026**
